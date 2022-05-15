@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/sza/AndroidStudioProjects/finalProjet/app/src/main/res/drawable-v24/bg_admin_menu_item1.xml" value="0.1055" />
+        <entry key="..\:/Users/sza/AndroidStudioProjects/finalProjet/app/src/main/res/layout/activity_course_details_etudiant.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/sza/AndroidStudioProjects/finalProjet/app/src/main/res/layout/activity_course_details_prof.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/sza/AndroidStudioProjects/finalProjet/app/src/main/res/layout/activity_emploi_temps.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/sza/AndroidStudioProjects/finalProjet/app/src/main/res/layout/activity_emploi_tempss.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/sza/AndroidStudioProjects/finalProjet/app/src/main/res/layout/activity_gestion_etudiant.xml" value="0.1" />
+        <entry key="..\:/Users/sza/AndroidStudioProjects/finalProjet/app/src/main/res/layout/activity_gestion_prof.xml" value="0.12" />
+        <entry key="..\:/Users/sza/AndroidStudioProjects/finalProjet/app/src/main/res/layout/activity_home.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/sza/AndroidStudioProjects/finalProjet/app/src/main/res/layout/activity_liste_admin.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/sza/AndroidStudioProjects/finalProjet/app/src/main/res/layout/activity_liste_etudiant.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/sza/AndroidStudioProjects/finalProjet/app/src/main/res/layout/activity_liste_prof.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/sza/AndroidStudioProjects/finalProjet/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/sza/AndroidStudioProjects/finalProjet/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/Users/sza/AndroidStudioProjects/finalProjet/app/src/main/res/layout/activity_register_user.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/sza/AndroidStudioProjects/finalProjet/app/src/main/res/layout/activity_update_course_etudiant.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/sza/AndroidStudioProjects/finalProjet/app/src/main/res/layout/activity_update_course_prof.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/sza/AndroidStudioProjects/finalProjet/app/src/main/res/layout/item_coursetudiant.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/sza/AndroidStudioProjects/finalProjet/app/src/main/res/layout/item_coursprof.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/sza/AndroidStudioProjects/finalProjet/app/src/main/res/layout/nav_header_prof.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/sza/AndroidStudioProjects/finalProjet/app/src/main/res/menu/menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/finalProjet/app/src/main/res/layout/activity_main.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

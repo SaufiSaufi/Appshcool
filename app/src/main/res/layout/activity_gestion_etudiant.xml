@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GestionEtudiant">
+
+    <!--Edittext for getting course Name-->
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_upload"
+        android:layout_width="255dp"
+        android:layout_height="250dp"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center"
+        android:src="@drawable/photo"></de.hdodenhof.circleimageview.CircleImageView>
+
+    <EditText
+        android:id="@+id/idEdtCourseName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Nom et Prénom"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <!--Edittext for getting course Duration-->
+    <EditText
+        android:id="@+id/idEdtCourseDuration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Num de téléphone"
+        android:importantForAutofill="no"
+        android:inputType="time" />
+
+    <!--Edittext for getting course Description-->
+    <EditText
+        android:id="@+id/idEdtCourseDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Email"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_bg"
+        android:text="Upload "
+        android:textAllCaps="false" />
+
+    <!--Button for adding your course to Firebase-->
+    <Button
+        android:id="@+id/idBtnSubmitCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_bg"
+        android:text="Ajouter etudiant"
+        android:textAllCaps="false" />
+    <!--Button for showing the list of added courses-->
+    <Button
+        android:id="@+id/idBtnViewCourses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_bg"
+        android:text="Liste des etudiants"
+        android:textAllCaps="false" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <!--Button for updating your course to Firebase-->
+
+
+        <!--Button for deleting our course-->
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

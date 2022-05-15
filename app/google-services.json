@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "686748571380",
+    "project_id": "appshcool",
+    "storage_bucket": "appshcool.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686748571380:android:d5583cc17f7bea45b970a1",
+        "android_client_info": {
+          "package_name": "com.example.appshcool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "686748571380-32cf4f7rsgudmktp8162gt0hsevis6t6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9aTJ3Jqt676_PJpgbMdA0Jee76yI7vXk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "686748571380-32cf4f7rsgudmktp8162gt0hsevis6t6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

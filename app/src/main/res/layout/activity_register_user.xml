@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backr">
+
+    <EditText
+        android:id="@+id/prenom"
+        android:background="@drawable/edit_test_bg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent=".8"
+        app:layout_constraintHorizontal_bias=".5"
+        app:layout_constraintVertical_bias=".3"
+        android:hint="Nom et prénom"
+        android:textColorHint="#70000000"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <EditText
+        android:id="@+id/nom"
+        android:background="@drawable/edit_test_bg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent=".8"
+        app:layout_constraintHorizontal_bias=".5"
+        app:layout_constraintVertical_bias="0"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="#70000000"
+        android:hint="Num de telephone"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prenom"
+        />
+
+
+    <EditText
+        android:id="@+id/email"
+        android:background="@drawable/edit_test_bg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent=".8"
+        app:layout_constraintHorizontal_bias=".5"
+        app:layout_constraintVertical_bias="0"
+        android:layout_marginTop="20dp"
+        android:hint="Email"
+        android:textColorHint="#70000000"
+        android:textColor="@color/black"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:inputType="textEmailAddress"
+        android:paddingBottom="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nom"
+        />
+    <EditText
+        android:id="@+id/password"
+        android:inputType="textPassword"
+        android:background="@drawable/edit_test_bg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent=".8"
+        app:layout_constraintHorizontal_bias=".5"
+        app:layout_constraintVertical_bias="0"
+        android:layout_marginTop="20dp"
+        android:hint="Password"
+        android:textColorHint="#70000000"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/email"
+        />
+
+    <Button
+        android:id="@+id/registeruser"
+        android:layout_width="0dp"
+
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:text="SIGNUP"
+        android:textSize="16sp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.771"
+
+        app:layout_constraintWidth_percent=".8" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
